@@ -1,0 +1,73 @@
+html {box-sizing: border-box;}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+  margin: 0; 
+  padding: 0;
+}
+
+body{
+  font-family: 'Chakra Petch', sans-serif;
+  font-size: 20px;
+  color: #FFFFFF;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fe7800;
+}
+
+.disclaimer{
+  text-align: center;
+  align-content: center;
+  align-items: center;
+  color: #ffba7b;
+}
+
+h1, h3{text-align: center;}
+
+h3{color: #FFFFFF;}
+
+button, input{
+  padding: 1em 1.5em;
+  font-family: 'Chakra Petch', sans-serif;
+  color: #FFFFFF;
+  border: none;
+}
+
+button{
+  text-transform: uppercase;
+  background-color: #333;  
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover{
+  transition: 0.4s;
+  transform: translateY(-2px);
+}
+
+input{
+  background-color: #333;
+  color: #FFFFFF;
+}
+
+form{
+  text-align: center;
+  margin-top: 10px;
+}
+
+.footer {
+  position: fixed;
+  color: #ffb16b;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
+}
+
+#result{
+  text-align: center;
+  font-size: 1.5em;
+}
