@@ -8,7 +8,7 @@ As soon as you pull up https://howmanyhoneybutterchickenbiscuits.com/ it's you a
 
 <img src= "https://media3.giphy.com/media/3o7btNa0RUYa5E7iiQ/source.gif">
 
-You just saved yourself from a dumb $694.20 order of dumb Amazon shit you were about to buy. As soon as you see that $694.20 gets you about 248 Honey Butter Chicken Biscuits you empty your cart and head over on to your nearest Whatburger for that dank...crispy...sweet Honey Butter Chicken Biscuit.
+You just saved yourself from a dumb $694.20 order of dumb Amazon shit you were about to buy. As soon as you see that $694.20 gets you about 248 Honey Butter Chicken Biscuits you empty your cart and head over on to your nearest Whataburger for that dank...crispy...sweet Honey Butter Chicken Biscuit.
 
 So fellas, as soon as you feel an urge to splurge do your wallet a favor and run the numbers. 
 
