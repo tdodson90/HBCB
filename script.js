@@ -5,7 +5,7 @@ function convertToHBCB(e){
   if( document.getElementById('amount').value === ''){
     alert("Please, fill in the amount!");
   }else{
-    result.innerHTML = 'You\'ve got at least ' + divide(amount) + ' Honey Butter Chicken Biscuits!';
+    result.innerHTML = 'You\'ve got at least ' + divide(amount) + ' Honey Butter Chicken Biscuits! <br> <form action="https://whataburger.com/ordering/startorder"><input type="submit" value="ORDER NOW" /></form>';
   }
   clearValue();
 }

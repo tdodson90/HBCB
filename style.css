@@ -29,7 +29,13 @@ body{
 
 h1, h3{text-align: center;}
 
-h3{color: #FFFFFF;}
+h3{
+  color: #FFFFFF;
+  margin-left: 30px;
+  margin-right: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
 
 button, input{
   padding: 1em 1.5em;
@@ -60,24 +66,49 @@ form{
   margin-top: 10px;
 }
 
-.footer {
-  position: fixed;
+#footer {
   color: #ffb16b;
   right: 0;
   bottom: 0;
   left: 0;
   padding: 1rem;
+  margin: 0 auto;
   text-align: center;
+  font-size: 10px;
+}
+
+a:link {
+  text-decoration: none;
+  color: #ffb16b;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #ffb16b;
+}
+
+a:hover {
+  color: #FFFFFF;
+}
+
+a:active {
 }
 
 #result{
   text-align: center;
   font-size: 1.5em;
+  margin-left: 30px;
+  margin-right: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 ul {
     padding:0;
     list-style: none;
+}
+ul.social-icons {
+    margin-top: 10px;
 }
 
 .footer-social-icons {
@@ -87,9 +118,6 @@ ul {
 }
 .social-icon {
     color: #FFFFFF;
-}
-ul.social-icons {
-    margin-top: 10px;
 }
 .social-icons li {
     vertical-align: top;
@@ -113,3 +141,15 @@ ul.social-icons {
     background-color: #00aced;
     color: #FFFFFF;
 }
+
+.twitter {
+        position: fixed;
+        display: block;
+        right: 64px;
+        bottom: 14px;
+        svg {
+            width: 32px;
+            height: 32px;
+            fill: #1da1f2;
+        }
+    }
