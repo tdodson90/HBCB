@@ -27,6 +27,17 @@ body{
   color: #ffba7b;
 }
 
+#images{
+  align-content: center;
+  align-items: center;
+}
+
+.biscuits{
+  padding: 10px;
+  align-content: center;
+  display: inline-block;
+}
+
 h1, h3{text-align: center;}
 
 h3{
