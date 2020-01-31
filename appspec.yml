@@ -1,0 +1,26 @@
+version: 0.0
+os: linux
+files:
+  - source: /web-public/index.html
+    destination: /var/www/html/
+  - source: /web-public/robots.txt
+    destination: /var/www/html/
+  - source: /web-public/script.js
+    destination: /var/www/html/
+  - source: /web-public/style.css
+    destination: /var/www/html/
+  - source: /web-public/img/
+    destination: /var/www/html/img/
+hooks:
+  BeforeInstall:
+    - location: scripts/install_dependencies
+      timeout: 300
+      runas: root
+    - location: scripts/start_server
+      timeout: 300
+      runas: root
+  ApplicationStop:
+    - location: scripts/stop_server
+      timeout: 300
+      runas: root
+
