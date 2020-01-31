@@ -8,7 +8,7 @@ function convertToHBCB(e){
     result.innerHTML = 'You\'ve got at least ' + divide(amount) + ' Honey Butter Chicken Biscuits! <br> <form action="https://whataburger.com/ordering/startorder"><input type="submit" value="ORDER NOW" /></form>';
   }
   var parent    = document.getElementById('images'),
-    imagePath = 'https://staging.howmanyhoneybutterchickenbiscuits.com/img/HoneyButterChickenBiscuitsmall.png',
+    imagePath = 'https://howmanyhoneybutterchickenbiscuits.com/img/HoneyButterChickenBiscuitsmall.png',
     img;
 if (parent.children.length > 0) {
   for (i = 0; i < parent.children.length; i = i){parent.children[0].remove()}

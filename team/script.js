@@ -15,7 +15,7 @@ function displayStockInfo(stockInfo) {
   
   var hbcbStock = divide(stockInfo.TradePrice)
 
-  stockPrice.innerHTML = 'You\'ve got at least <br> ' + hbcbStock + '<br> Honey Butter Chicken Biscuits! <br><br><br> Otherwise known as: <br>' + '$' + stockInfo.TradePrice.toFixed(2);
+  stockPrice.innerHTML = 'You\'ve got at least <br> ' + hbcbStock + '<br> Honey Butter Chicken Biscuits! <br><br> <small>Otherwise known as:</small> <br>' + '$' + stockInfo.TradePrice.toFixed(2) + ' USD';
 
   if (stockInfo.Change > 0) {
     stockChange.innerHTML = "+" + stockInfo.Change + " (" + stockInfo.PercChange + "%)";
