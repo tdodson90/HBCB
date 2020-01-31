@@ -10,7 +10,7 @@ files:
   - source: /web-public/style.css
     destination: /var/www/html/
   - source: /web-public/img/HoneyButterChickenBiscuit.png
-    destination: /var/www/html/img/
+    destination: /var/www/html/img/HoneyButterChickenBiscuit.png
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies
