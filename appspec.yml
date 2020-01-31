@@ -9,7 +9,7 @@ files:
     destination: /var/www/html/
   - source: /web-public/style.css
     destination: /var/www/html/
-  - source: /web-public/img/
+  - source: /web-public/img/HoneyButterChickenBiscuit.png
     destination: /var/www/html/img/
 hooks:
   BeforeInstall:
