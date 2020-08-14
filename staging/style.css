@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,500&display=swap');
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&display=swap');
 * {
   margin: 0px;
   padding: 0px;
@@ -7,13 +7,13 @@
 }
 
 body {
-  font-family: 'Rockwell W01 Bold', sans-serif;
+  font-family: 'Noto Serif', serif;
   background: #333;
   color: #fff;
 }
 
 button{
-  font-family: 'Rockwell W01 Bold', sans-serif;
+  font-family: 'Noto Serif', serif;
   text-transform: uppercase;
   background-color: #333;
 }
@@ -63,12 +63,11 @@ nav{
   align-items: center;
 }
 .introduction{
-  flex: 1;
+  flex: 3;
 }
 .intro-text{
   font-size: 44px;
   font-weight: 500;
-
 }
 
 .intro-text p{
@@ -89,7 +88,6 @@ nav{
   font-size: 16px;
 }
 .cover{
-  flex: 1;
   display: flex;
   justify-content: center;
   height: 60vh;
@@ -106,77 +104,26 @@ nav{
 }
 
   input{
-    padding: 1em 1.5em;
-    font-family: 'Rockwell W01 Bold', sans-serif;
+    padding: 10px;
+    font-family: 'Noto Serif', serif;
     color: #FFFFFF;
     border: none;
-  }
-
-  .result-container{
-    display: flex;
-  }
-
-  #result{
-    text-align: center;
-    flex: 1;
     font-size: 18px;
   }
 
-
-
-.features-container {
-  
-  position: relative;
-  overflow: hidden;
-}
-
-.features h2{
-  color: white;
-  font-family: 'Rockwell W01 Bold', sans-serif;
-}
-
-.features {
-  min-height: 90vh;
-  width: 80%;
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-}
-
-.features .cards {
-  display: flex;
-  justify-content: space-between;
-  color: black;
-}
-
-.features .cards .card {
-  background: white;
-  margin: 0rem 5rem;
-  width: 400px;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  border-radius: 2rem;
-  overflow: hidden;
-}
-
-.features .cards .card h4 {
-  margin: 2rem 0rem 1rem 0rem;
-}
-
-.features .cards .card p {
-  padding: 2rem;
-}
-
-.features .cards .card img {
-  -o-object-fit: cover;
-     object-fit: cover;
-}
+  .result-container{
+    flex-direction: column;
+    align-items: center;
+  }
+  #result{
+    text-align: center;
+    font-size: 22px;
+    flex: 2;
+  }
 
 .cta-posts button{
   margin-bottom: 10px;
-  font-family: 'Rockwell W01 Bold', sans-serif;
+  font-family: 'Noto Serif', serif;
   border: 2px solid #5f5f79;
   background: transparent;
   color: #5f5f79;
@@ -186,10 +133,94 @@ nav{
   font-size: 16px;
 }
 
+.cta-select-form{
+  border-radius: 8px;
+  background: #fff;
+  color: #fe7800;
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+  font-size: 16px;
+}
 
+#footer {
+  color: #fff;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 10px;
+}
 
+a:link {
+  text-decoration: none;
+  color: #fff;
+}
 
+a:visited {
+  text-decoration: none;
+  color: #fff;
+}
 
+a:hover {
+  color: #FFFFFF;
+}
+
+a:active {
+}
+
+ul {
+    padding:0;
+    list-style: none;
+}
+ul.social-icons {
+    margin-top: 10px;
+}
+
+.footer-social-icons {
+    width: 350px;
+    display:block;
+    margin: 0 auto;
+}
+.social-icon {
+    color: #FFFFFF;
+}
+.social-icons li {
+    vertical-align: top;
+    display: inline;
+    height: 100px;
+}
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+}
+.fa-twitter {
+    padding:10px 12px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    
+}
+.fa-twitter:hover {
+    background-color: #00aced;
+    color: #FFFFFF;
+}
+
+.twitter {
+        position: fixed;
+        display: block;
+        right: 64px;
+        bottom: 14px;
+        svg {
+            width: 32px;
+            height: 32px;
+            fill: #1da1f2;
+        }  
+}
 
 /* For smaller screens: */
 
@@ -197,6 +228,18 @@ nav{
   .presentation {
     flex-direction: column;
     min-height: 65vh;
+  }
+  header{
+    align-items: center;
+    padding: 0px;
+    width: 100%;
+  }
+  .logo-container{
+    align-items: center;
+    flex: 1;
+  }
+  .nav-links{
+    display: none;
   }
   .introduction{
     margin-top: 5vh;
@@ -215,94 +258,24 @@ nav{
       height: 100%;
   }
   .cover img{
-    height: 50%;
+    height: 70%;
+  }
+  .cta-select-form{
+    border-radius: 8px;
+    border: 1px solid white;
+    background: #fe7800;
+    color: #fff;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  #result{
+    padding: 15px;
+    margin: 10px;
+    text-align: center;
+    font-size: 22px;
+    flex: 1;
   }
 }
-
-#footer {
-    color: #fff;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    padding: 1rem;
-    margin: 0 auto;
-    text-align: center;
-    font-size: 10px;
-  }
-  
-  a:link {
-    text-decoration: none;
-    color: #fff;
-  }
-  
-  a:visited {
-    text-decoration: none;
-    color: #fff;
-  }
-  
-  a:hover {
-    color: #FFFFFF;
-  }
-  
-  a:active {
-  }
-  
-  #result{
-    text-align: center;
-    font-size: 1.5em;
-    margin-left: 30px;
-    margin-right: 30px;
-    padding-left: 30px;
-    padding-right: 30px;
-  }
-  
-  ul {
-      padding:0;
-      list-style: none;
-  }
-  ul.social-icons {
-      margin-top: 10px;
-  }
-  
-  .footer-social-icons {
-      width: 350px;
-      display:block;
-      margin: 0 auto;
-  }
-  .social-icon {
-      color: #FFFFFF;
-  }
-  .social-icons li {
-      vertical-align: top;
-      display: inline;
-      height: 100px;
-  }
-  .social-icons a {
-      color: #fff;
-      text-decoration: none;
-  }
-  .fa-twitter {
-      padding:10px 12px;
-      -o-transition:.5s;
-      -ms-transition:.5s;
-      -moz-transition:.5s;
-      -webkit-transition:.5s;
-      transition: .5s;
-      
-  }
-  .fa-twitter:hover {
-      background-color: #00aced;
-      color: #FFFFFF;
-  }
-  
-  .twitter {
-          position: fixed;
-          display: block;
-          right: 64px;
-          bottom: 14px;
-          svg {
-              width: 32px;
-              height: 32px;
-              fill: #1da1f2;
-          }
-    
