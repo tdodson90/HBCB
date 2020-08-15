@@ -1,5 +1,7 @@
-@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200&display=swap');
+
 * {
   margin: 0px;
   padding: 0px;
@@ -33,8 +35,8 @@ header {
 }
 
 .logo-container{
-  flex: 3;
   align-items: center;
+  flex: 3;
 }
 .logo-container img{
   height: 10vh;
@@ -44,7 +46,7 @@ header {
   margin: 5px;
 }
 nav{
-  flex: 2;
+  flex: 1;
 }
 .nav-links{
   justify-content: space-around;
@@ -87,6 +89,7 @@ nav{
   cursor: pointer;
   font-size: 16px;
 }
+
 .cover{
   display: flex;
   justify-content: center;
@@ -135,8 +138,8 @@ nav{
 
 .cta-select-form{
   border-radius: 8px;
-  background: #fff;
-  color: #fe7800;
+  background: #fe7800;
+  color: #fff;
   width: 150px;
   height: 50px;
   cursor: pointer;
@@ -144,7 +147,8 @@ nav{
 }
 
 #footer {
-  color: #fff;
+  font-family: 'Noto Serif KR', serif;
+  color: #ffba7b;
   right: 0;
   bottom: 0;
   left: 0;
@@ -156,19 +160,16 @@ nav{
 
 a:link {
   text-decoration: none;
-  color: #fff;
+  color: #ffba7b;
 }
 
 a:visited {
   text-decoration: none;
-  color: #fff;
+  color: #ffba7b;
 }
 
 a:hover {
-  color: #FFFFFF;
-}
-
-a:active {
+  color: #fff;
 }
 
 ul {
@@ -190,10 +191,9 @@ ul.social-icons {
 .social-icons li {
     vertical-align: top;
     display: inline;
-    height: 100px;
 }
 .social-icons a {
-    color: #fff;
+    color: #ffba7b;
     text-decoration: none;
 }
 .fa-twitter {
@@ -214,13 +214,22 @@ ul.social-icons {
         position: fixed;
         display: block;
         right: 64px;
-        bottom: 14px;
-        svg {
-            width: 32px;
-            height: 32px;
-            fill: #1da1f2;
-        }  
+        bottom: 14px; 
 }
+
+#images{
+  align-content: center;
+  align-items: center;
+}
+
+.biscuits{
+  padding: 10px;
+  align-content: center;
+  display: inline-block;
+}
+
+
+
 
 /* For smaller screens: */
 
@@ -233,10 +242,12 @@ ul.social-icons {
     align-items: center;
     padding: 0px;
     width: 100%;
+    margin: auto;
   }
   .logo-container{
     align-items: center;
-    flex: 1;
+    width: 100%;
+    justify-content: space-around;
   }
   .nav-links{
     display: none;
