@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-155787174-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-155787174-1');
+</script>
+  <meta charset="UTF-8">
+  <title>404 - No Honey Butter Chicken Biscuits Here :(</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Chakra+Petch" rel="stylesheet"><link rel="stylesheet" href="./style.css">
+<link rel="stylesheet" href="./style.css">
+</head>
+
+</head>
+<body>
+ <div id="container">
+ 	<div>
+      <h1>No Honey Butter Chicken Biscuits here.</h1>
+      <h3>:(</h3>
+          <div id="disclaimer" class="disclaimer"><small>CODE: 404</small>
+          </div>
+ 	<center><img src="img/HoneyButterChickenBiscuit.png"></center>
+    <footer>
+        <div id="footer">
+        <br>*Not affiliated with <a href="https://whataburger.com/home">WHATABURGER&trade;</a>.
+      </div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery-ui-bootstrap/0.5pre/assets/js/jquery-1.9.0.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
