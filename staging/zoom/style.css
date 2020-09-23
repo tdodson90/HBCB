@@ -246,6 +246,10 @@ ul.social-icons {
   padding-right: 30px;
 }
 
+.price{
+  padding-bottom: 5px;
+}
+
 #sm-stock-ticker .name {
   font-size: 10px;
   padding: 0;

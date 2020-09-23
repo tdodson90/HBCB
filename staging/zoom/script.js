@@ -40,7 +40,7 @@ jQuery.ajax({
     data: {
         "apiKey": "BF185719B0464B3CB809D23926182246",
         "exchange": "NASDAQ",
-        "symbol": "TEAM",
+        "symbol": "ZM",
         "pageSize": "1",
     },
 })
