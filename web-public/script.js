@@ -24,7 +24,7 @@ for (var i = 0; i < divide(amount); i++) {
 }
 
 function divide(value){
-  return Math.floor (value / 2.79).toFixed(0);
+  return Math.floor (value / 2.9).toFixed(0);
 }
 
 function clearValue(){
