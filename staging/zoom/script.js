@@ -15,7 +15,7 @@ function displayStockInfo(stockInfo) {
   
   var hbcbStock = divide(stockInfo.TradePrice)
 
-  stockPrice.innerHTML = 'You\'ve got at least <br> ' + hbcbStock + '<br> Honey Butter Chicken Biscuits! <br><br><br> Otherwise known as: <br>' + '$' + stockInfo.TradePrice.toFixed(2);
+  stockPrice.innerHTML = 'You\'ve got at least <br> ' + hbcbStock + '<br> Honey Butter Chicken Biscuits! <br><br> Otherwise known as: <br>' + '$' + stockInfo.TradePrice.toFixed(2);
 
   if (stockInfo.Change > 0) {
     stockChange.innerHTML = "+" + stockInfo.Change + " (" + stockInfo.PercChange + "%)";
@@ -40,7 +40,7 @@ jQuery.ajax({
     data: {
         "apiKey": "BF185719B0464B3CB809D23926182246",
         "exchange": "NASDAQ",
-        "symbol": "TEAM",
+        "symbol": "ZM",
         "pageSize": "1",
     },
 })

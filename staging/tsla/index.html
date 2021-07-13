@@ -15,10 +15,8 @@
 <link rel="icon" type="image/png" href="img/favicon-16x16.png" sizes="16x16" />
 <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
   <meta charset="UTF-8">
-  <title>Honey Butter Chicken Biscuit Converter</title>
+  <title>TSLA -> HBCB</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href='https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 <link href="https://fonts.googleapis.com/css?family=Chakra+Petch" rel="stylesheet">
 <link rel="stylesheet" href="./style.css">
 
@@ -59,14 +57,13 @@
         <section class="presentation">
           <div class="introduction">
             <div class="intro-text">
-              <h1>Honey Butter Chicken Biscuit Converter</h1>
-              <p>Easily convert dollars to Honey Butter Chicken Biscuits!</p>
               <form id="converter">
-            
-                <input class="amount_field" type="number" min="0" inputmode="numeric" pattern="[0-9]*" title="Non-negative integral number" step="any" placeholder="Ex: $56.90" id="amount">
-                <div class="cta">
-                    <button class="cta-select" type="submit">Convert!</button>
-                  </div>
+                <div id="sm-stock-ticker">
+                  <p class="price"></p>
+                  <p class="name">NASDAQ: TSLA</p>
+                  <p class="delay">Minimum 20 minute delay</p>
+                   <p class="date"></p>
+               </div>
               </form>
             </div>
         
@@ -90,12 +87,10 @@
         <br>
         This site costs at least 9 Honey Butter Chicken Biscuits a year to run.
         <ul class="social-icons">
-          <li><a href="https://twitter.com/skrrrrrtsquad" class="social-icon"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="https://twitter.com/travisdodson" class="social-icon"><i class="fa fa-twitter"></i></a></li>
         </ul>
       </div>
 </footer>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
-<script  src="./script.js"></script>
-<script  src="./menuscript.js"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery-ui-bootstrap/0.5pre/assets/js/jquery-1.9.0.min.js'></script><script  src="./script.js"></script>
 </body>
 </html>

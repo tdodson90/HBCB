@@ -36,7 +36,7 @@ header {
 
 .logo-container{
   align-items: center;
-  flex: 1;
+  flex: 3;
 }
 .logo-container img{
   height: 10vh;
@@ -228,7 +228,49 @@ ul.social-icons {
   display: inline-block;
 }
 
-/* Menu */
+#sm-stock-ticker {
+  font-family: 'Chakra Petch', sans-serif;
+  text-align: center;
+  margin-left: 30px;
+  margin-right: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+#sm-stock-ticker .price {
+  text-align: center;
+  font-size: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.price{
+  padding-bottom: 5px;
+}
+
+#sm-stock-ticker .name {
+  font-size: 10px;
+  padding: 0;
+  margin-bottom: 0;
+  line-height: 0;
+}
+
+#sm-stock-ticker .delay {
+  font-size: 10px;
+  padding: 10px;
+  margin-bottom: 0;
+  line-height: 0;
+}
+
+#result{
+  text-align: center;
+  font-size: 1.5em;
+  margin-left: 30px;
+  margin-right: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
 
 .menu {
   width: 100%;
@@ -379,12 +421,6 @@ width: 100%;
 border: 0;
 padding: 1em 0;
 }
-/* ––––––––––––––––––––––––––––––––––––––––––––––––––
-Mobile style's
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-
-
-
 
 /* For smaller screens: */
 
@@ -444,58 +480,57 @@ Mobile style's
     font-size: 22px;
     flex: 1;
   }
+  @media only screen and (max-width: 1500px) {
+    .menu-container {
+      width: 100%;
+    }
+    .menu-container .menu{
+    display:inline-block;
+     }
+    .menu-mobile {
+      display: block;    
+      float: right;    
+      padding: 20px 20px 0;
+    }
+    .menu-dropdown-icon:before {
+      display: block;
+    }
+    .menu > ul {
+      display: none;
+      width:100%;
+    }
+    .menu > ul > li {
+      width: 100%;
+      float: none;
+      display: block;
+    }
+    .menu > ul > li a {
+      padding: 1.5em;
+      width: 100%;
+      display: block;
+    }
+    .menu > ul > li > ul {
+      position: relative;    
+      padding: 0 40px;
+    }
+    .menu > ul > li > ul.normal-sub {
+      width: 100%;
+    }
+    .menu > ul > li > ul > li {
+      float: none;
+      width: 100%;
+      margin-top: 20px;
+    }
+    .menu > ul > li > ul > li:first-child {
+      margin: 0;
+    }
+    .menu > ul > li > ul > li > ul {
+      position: relative;
+    }
+    .menu > ul > li > ul > li > ul > li {
+      float: none;
+    }
+    .menu .show-on-mobile {
+      display: block;
+    }
 }
-@media only screen and (max-width: 1500px) {
-  .menu-container {
-    width: 100%;
-  }
-  .menu-container .menu{
-  display:inline-block;
-   }
-  .menu-mobile {
-    display: block;    
-    float: right;    
-    padding: 20px 20px 0;
-  }
-  .menu-dropdown-icon:before {
-    display: block;
-  }
-  .menu > ul {
-    display: none;
-    width:100%;
-  }
-  .menu > ul > li {
-    width: 100%;
-    float: none;
-    display: block;
-  }
-  .menu > ul > li a {
-    padding: 1.5em;
-    width: 100%;
-    display: block;
-  }
-  .menu > ul > li > ul {
-    position: relative;    
-    padding: 0 40px;
-  }
-  .menu > ul > li > ul.normal-sub {
-    width: 100%;
-  }
-  .menu > ul > li > ul > li {
-    float: none;
-    width: 100%;
-    margin-top: 20px;
-  }
-  .menu > ul > li > ul > li:first-child {
-    margin: 0;
-  }
-  .menu > ul > li > ul > li > ul {
-    position: relative;
-  }
-  .menu > ul > li > ul > li > ul > li {
-    float: none;
-  }
-  .menu .show-on-mobile {
-    display: block;
-  }
-  }
